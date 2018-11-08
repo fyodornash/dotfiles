@@ -1,0 +1,8 @@
+ActivityStore = /home/michael/ttwatch
+RunAsUser = michael:usb
+PostProcessor = /home/michael/bin/ttwatch_upload.sh
+GetActivities = true
+UpdateFirmware = true
+UpdateGPS = true
+Formats = csv,gpx,tcx
+SetTime = true

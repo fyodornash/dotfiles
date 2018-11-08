@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/michael/plotly/repos/documentation/_posts/python/basic/pyramid'
+let g:netrw_dirhist_2='/home/michael/plotly/dash/dash-redis-demo'
+let g:netrw_dirhist_3='/home/michael/.plotly/connector'
+let g:netrw_dirhist_4='/home/michael/plotly/repos/dash-recipes/multi-page-app/static'
