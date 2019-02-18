@@ -116,6 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 export PATH=$HOME/bin:$PATH
+export WORKON_HOME=/media/michael/HDDinHDD/.virtualenvs
 source virtualenvwrapper.sh
 export STRAVA_KEY=71669de04805c45ad1e42db844d348c767ac900a
 export GARMIN_DATA_DIR=~/garmin/michael_data
@@ -126,12 +127,20 @@ if [ -f '/home/michael/google-cloud-sdk/path.bash.inc' ]; then source '/home/mic
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/michael/google-cloud-sdk/completion.bash.inc' ]; then source '/home/michael/google-cloud-sdk/completion.bash.inc'; fi
 
+export MAPBOX_TOKEN="pk.eyJ1IjoibWljaGFlbGJhYnluIiwiYSI6ImNqanU5b24zdTAwbDMza282cmxyeGJpdzMifQ.F0n8GMvBBmqa61i6zuOYWg"
 export PATH="$PATH:/home/michael/bin"
+export PATH=$PATH:/home/michael/bin/flutter_linux_v0.11.13-beta/flutter/bin
+export PATH=$PATH:/home/michael/bin/android-studio-ide-181.5056338-linux/android-studio/bin
+export PATH=$PATH:/home/michael/bin/idea-IC-183.4588.61/bin
 export EDITOR=vim
 export EDITOR="$VISUAL"
+export PLOTLY_TOX_PYTHON_27=python2.7
+export PLOTLY_TOX_PYTHON_34=python3.4
+export TOXENV=py27-core,py34-core
+
 
 # added by Anaconda2 installer
 # export PATH="/home/michael/anaconda2/bin:$PATH"
-
+source /home/michael/.bash_envvars.sh
 source /home/michael/bin/bash_functions.sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/oracle/18.3/client64/lib
