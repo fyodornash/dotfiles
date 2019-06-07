@@ -29,3 +29,5 @@ alias jon_server="ssh michaelbabyn@usagitsukino.duckdns.org"
 alias snp='cd ~/plotly/SOWs/S\&P/'
 alias atl='cd ~/atelier'
 alias banq_login='curl -d user=00855481 -d password=37725314 https://banq-wlc.banq.qc.ca/auth/index.html'
+alias octave='flatpak run org.octave.Octave'
+alias plotly_io="rvm 2.4.2@plotly_io"
